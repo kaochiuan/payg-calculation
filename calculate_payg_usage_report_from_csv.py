@@ -54,7 +54,8 @@ if __name__ == "__main__":
     device_to_owner = {}
     for org in sample_org_data["org_info"]:
         owner_id = org["owner_id"]
-        for device_id in org["devices"]:
+        for device in org["devices"]:  # Iterate through device objects
+            device_id = device["id"]   # Access the 'id' field
             device_to_owner[device_id] = owner_id
 
     # Group usage data by owner_id

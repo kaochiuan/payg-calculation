@@ -34,7 +34,8 @@ def generate_sample_csv():
         # Iterate through organizations and devices
         for org in sample_data['org_info']:
             org_id = org['id']
-            for device_id in org['devices']:
+            for device in org['devices']:  # Iterate through device objects
+                device_id = device['id']   # Access the 'id' field
                 used_dates = set()
                 # Generate 18 rows of sample data for each device
                 gsp = random.choice([True, False])
