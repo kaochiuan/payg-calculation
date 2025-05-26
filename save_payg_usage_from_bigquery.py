@@ -12,18 +12,18 @@ import uuid
 # get usage data from table1, start_date and end_date are the date range for the usage data
 
 
-def get_usage_data_from_table1(start_date, end_date):
+def get_usage_data_from_postpay_table(start_date, end_date):
     query = """
-    SELECT table1.device_id, table1.organization_id, table1.date, table1.create_at
-    WHERE table1.date between {start_date} and {end_date}
+    SELECT postpay_table.device_id, postpay_table.organization_id, postpay_table.date, postpay_table.create_at
+    WHERE postpay_table.date between {start_date} and {end_date}
     """
     return query
 
 
-def get_usage_data_from_table2(start_date, end_date):
+def get_usage_data_from_payg_table(start_date, end_date):
     query = """
-    SELECT table2.uuid, table2.device_id, table2.org_id, table2.time, table2.pro, table2.gsp
-    WHERE table2.time between {start_date} and {end_date}
+    SELECT payg_table.uuid, payg_table.device_id, payg_table.org_id, payg_table.time, payg_table.pro, payg_table.gsp
+    WHERE payg_table.time between {start_date} and {end_date}
     """
     return query
 
