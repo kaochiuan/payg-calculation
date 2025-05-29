@@ -113,8 +113,4 @@ combined_data = combine_data_from_table1_and_table2(postpay_data, payg_data)
 
 ## License
 
-[Specify your license here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
+[MIT License]
