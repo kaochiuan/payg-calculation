@@ -7,17 +7,20 @@
                 {
                     "id": "cc0bb016-6ffd-40d3-a908-d54532d7d7ee",
                     "device_model": "USG FLEX 700",
-                    "name": "my security gateway"
+                    "name": "my security gateway",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "d8f92d30-e8a6-41d5-8ee6-650daf7f7ce1",
                     "device_model": "GS1915-24E",
-                    "name": "My FLEX device"
+                    "name": "My FLEX device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "eb366c83-392f-4c56-a339-03e4f95663a0",
                     "device_model": "NWA5123-ACHD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         },
@@ -28,17 +31,20 @@
                 {
                     "id": "cfa57637-c229-4b13-a596-a8908249c763",
                     "device_model": "NWA50AX PRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "4927d061-9697-4cfc-b9d6-155fc9eca3e5",
                     "device_model": "XGS1930-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e81594b3-854e-4576-8fde-511803ccb5ac",
                     "device_model": "GS1915-24E",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         },
@@ -49,17 +55,20 @@
                 {
                     "id": "f994632a-7887-4a0a-9d93-f7a7a22396b7",
                     "device_model": "GS1350-18HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f762d86d-ba4f-4a2e-a271-c7452a760d4f",
                     "device_model": "USG FLEX 100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "d8fa45bc-14fe-4845-b572-2327b8c06d74",
                     "device_model": "NSG300",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         },
@@ -70,522 +79,626 @@
                 {
                     "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3e0f5c1d-0c9c-4f8a-82e7-1f8b7b74f5da",
                     "device_model": "NAP303",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "a2c2a9f2-1f5c-4e4b-8f0c-9c3b4b8d5e7a",
                     "device_model": "NR5101",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8f4b2d0e-9d3a-4c1b-9a8c-0e1f2d3a4b5c",
                     "device_model": "GS2220-50",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
                     "device_model": "NSW200-28P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5a6b7c8d-9e0f-4a1b-8c2d-3e4f5a6b7c8d",
                     "device_model": "NAP353",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c8d9e0f1-a2b3-4c4d-b5e6-f7a8b9c0d1e2",
                     "device_model": "NWA130BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2f3a4b5c-6d7e-4f8a-9b0c-1d2e3f4a5b6c",
                     "device_model": "GS1920-24v2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7e8f9a0b-1c2d-4e3f-a4b5-c6d7e8f9a0b1",
                     "device_model": "NSW100-28P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
                     "device_model": "NSG200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6fba1b01-1b8a-4ab7-8a1a-3bb4d0f7a1b2",
                     "device_model": "NSW100-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0c7c2d3e-2a9c-4a9b-83f8-2a9b8c8d0e8b",
                     "device_model": "XGS1930-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b3d3b0a3-3e6d-4f5c-901d-0a4c5d9e8a1f",
                     "device_model": "GS1350-26HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "905c3e1f-0e4b-4d2c-a09d-1f3a5b6e8d2a",
                     "device_model": "XMG1930-30",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e2f4a5b6-c6d7-4e8f-9a0b-2c3d4e5f6a7b",
                     "device_model": "GS192024HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6b7c8d9e-0f1a-4b2c-8d3e-4f5a6b7c8d9e",
                     "device_model": "NWA210AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d0e1f2a3-b4c5-4d6e-8f9a-0b1c2d3e4f5a",
                     "device_model": "USG FLEX 700H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3a4b5c6d-7e8f-4a9b-0c1d-2e3f4a5b6c7d",
                     "device_model": "NWA1123ACPRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8f9a0b1c-2d3e-4f4a-b5c6-d7e8f9a0b1c2",
                     "device_model": "NWA5123-AC HD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "1d2e3f4a-5b6c-4d7e-8f9a-0b1c2d3e4f5a",
                     "device_model": "LTE3301-PLUS",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "aa77bbcc-ddee-4ff0-aa11-bb22cc33dd44",
                     "device_model": "NWA50AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "11223344-5566-4778-8899-aabbccddeeff",
                     "device_model": "GS1920-48HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "abcdef01-2345-4678-9abc-def012345678",
                     "device_model": "GS2220-50",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "fedcba98-7654-4321-0fed-cba987654321",
                     "device_model": "USG FLEX 50HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "12345678-9abc-4def-0123-456789abcdef",
                     "device_model": "XGS2220-54FP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
                     "device_model": "USG FLEX 200HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f0e1d2c3-b4a5-4987-65fe-dcb0a9876543",
                     "device_model": "USG FLEX 50W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "55aa66bb-cc77-4dd8-ee99-ff00aabbccdd",
                     "device_model": "USG FLEX 100HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "98765432-10fe-4dcb-a987-6543210fedcb",
                     "device_model": "GS192024HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "00112233-4455-4667-7788-99aabbccdeef",
                     "device_model": "USG FLEX 100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
                     "device_model": "NWA110BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7d8e9f0a-1b2c-4d3e-a4b5-c6d7e8f9a0b1",
                     "device_model": "GS1915-24E",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c0d1e2f3-a4b5-4c6d-b7e8-f9a0b1c2d3e4",
                     "device_model": "USG LITE 60AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "3f4a5b6c-7d8e-4f9a-0b1c-2d3f4a5b6c7d",
                     "device_model": "XGS1935-52HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8a9b0c1d-2e3f-4a4b-b5c6-d7e8f9a0b1c2",
                     "device_model": "USG FLEX 200HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "df5ccebe-902e-4644-8d4c-1e1f030678d7",
                     "device_model": "NSG100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "23b07cde-876d-4f7a-9a91-3cce0a03411d",
                     "device_model": "XGS2220-54HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "a8d8e234-1122-45bc-af01-4dddeeff1122",
                     "device_model": "GS1350-26HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "fa1010ef-9889-4001-8765-1234abcd5678",
                     "device_model": "XMG1915-18EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0123abcd-45ef-4789-8901-efab1234cd56",
                     "device_model": "XGS4600-32",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bcde2345-fg67-4890-9012-ghij3456kl78",
                     "device_model": "NSG100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "cdef3456-hi78-4901-0123-ijkl4567mn89",
                     "device_model": "NWA220AX-6E",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "defa4567-jk89-4012-1234-klmn5678op90",
                     "device_model": "GS1920-24v2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "efab5678-lm90-4123-2345-mnop6789qr01",
                     "device_model": "GS1350-12HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "fabc6789-no01-4234-3456-opqr7890st12",
                     "device_model": "USG FLEX 100H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
                     "device_model": "XGS4600-32",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8d9e0f1a-2b3c-4d4e-a5b6-c7d8e9f0a1b2",
                     "device_model": "LTE3301-PLUS",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d1e2f3a4-b5c6-4e7f-8a9b-0c1d2e3f4a5b",
                     "device_model": "NWA210AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "4a5b6c7d-8e9f-4a0b-1c2d-3e4f5a6b7c8d",
                     "device_model": "XGS2220-30F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9b0c1d2e-3f4a-4b5c-6d7e-8f9a0b1c2d3e",
                     "device_model": "ATP100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "e2f3a4b5-c6d7-4e8f-9a0b-1c2d3f4a5b6c",
                     "device_model": "NSG100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e9f",
                     "device_model": "NWA5123-ACHD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0d1e2f3a-4b5c-4d6e-7f8a-9b0c1d2e3f4a",
                     "device_model": "XGS4600-52F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d",
                     "device_model": "XGS2220-54FP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f6a7b8c9-d0e1-4f2c-3d4e-5f6a7b8c9d0e",
                     "device_model": "USG FLEX 200H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
                     "device_model": "XGS1930-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e",
                     "device_model": "ATP700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "7c8d9e0f-1a2b-4c8d-9e0f-1a2b3c4d5e6f",
                     "device_model": "GS1920-8HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2d3e4f5a-6b7c-4d9e-0f1a-2b3c4d5e6f7a",
                     "device_model": "GS1920-24",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8e9f0a1b-2c3d-4e0f-1a2b-3c4d5e6f7a8b",
                     "device_model": "GS1920-24HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "3f4a5b6c-7d8e-4f1a-2b3c-4d5e6f7a8b9c",
                     "device_model": "GS2220-50",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9a0b1c2d-3e4f-4a2b-3c4d-5e6f7a8b9c0d",
                     "device_model": "NR7101",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "4b5c6d7e-8f9a-4b3c-4d5e-6f7a8b9c0d1e",
                     "device_model": "USG FLEX 700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "0c1d2e3f-4a5b-4c4d-5e6f-7a8b9c0d1e2f",
                     "device_model": "GS192048HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5d6e7f8a-9b0c-4d5e-6f7a-8b9c0d1e2f3a",
                     "device_model": "LTE7461-M602",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "ae6f7a8b-9c0d-4e6f-7a8b-9c0d1e2f3a4b",
                     "device_model": "GS1915-24EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bf7a8b9c-0d1e-4f7a-8b9c-0d1e2f3a4b5c",
                     "device_model": "NWA55AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c0a1b2c3-d4e5-40b6-c7d8-e9f0a1b2c3d4",
                     "device_model": "XGS1930-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d1b2c3d4-e5f6-41c7-d8e9-f0a1b2c3d4e5",
                     "device_model": "XS1930-12F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e2c3d4e5-f6a7-42d8-e9f0-a1b2c3d4e5f6",
                     "device_model": "XGS1930-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f3d4e5f6-a7b8-43e9-f0a1-b2c3d4e5f6a7",
                     "device_model": "XGS1930-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "04e5f6a7-b8c9-44fa-0b1c-2d3e4f5a6b7c",
                     "device_model": "NWA210AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "15f6a7b8-c9d0-45ab-1c2d-3e4f5a6b7c8d",
                     "device_model": "XGS4600-32F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "26a7b8c9-d0e1-46bc-2d3e-4f5a6b7c8d9e",
                     "device_model": "NWA5123-ACHD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "37b8c9d0-e1f2-47cd-3e4f-5a6b7c8d9e0f",
                     "device_model": "NWA50AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "48c9d0e1-f2a3-48de-4f5a-6b7c8d9e0f1a",
                     "device_model": "XMG1930-30HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "59d0e1f2-a3b4-49ef-5a6b-7c8d9e0f1a2b",
                     "device_model": "LTE7461-M602",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6ae1f2a3-b4c5-4a00-6b7c-8d9e0f1a2b3c",
                     "device_model": "USG FLEX 700H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "7bf2a3b4-c5d6-4b11-7c8d-9e0f1a2b3c4d",
                     "device_model": "GS1920-24HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8cf3a4b5-d6e7-4c22-8d9e-0f1a2b3c4d5e",
                     "device_model": "NSG200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9de4a5b6-e7f8-4d33-9e0f-1a2b3c4d5e6f",
                     "device_model": "NWA1123-ACHD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "aef5b6c7-f8a9-4e44-0f1a-2b3c4d5e6f7a",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "bff6c7d8-a9b0-4f55-1a2b-3c4d5e6f7a8b",
                     "device_model": "NAP102",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c007d8e9-b0c1-4066-2b3c-4d5e6f7a8b9c",
                     "device_model": "XGS2220-30",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d118e9f0-c1d2-4177-3c4d-5e6f7a8b9c0d",
                     "device_model": "NWA1123-AC PRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e229f0a1-d2e3-4288-4d5e-6f7a8b9c0d1e",
                     "device_model": "USG FLEX 100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f33a0b1c-e3f4-4399-5e6f-7a8b9c0d1e2f",
                     "device_model": "NWA130BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "044b1c2d-f4a5-44aa-6f7a-8b9c0d1e2f3a",
                     "device_model": "NSW100-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "155c2d3e-a5b6-45bb-7a8b-9c0d1e2f3a4b",
                     "device_model": "USG FLEX 50HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "266d3e4f-b6c7-46cc-8b9c-0d1e2f3a4b5c",
                     "device_model": "GS1350-6HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "377e4f5a-c7d8-47dd-9c0d-1e2f3a4b5c6d",
                     "device_model": "USG FLEX 200HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "488f5a6b-d8e9-48ee-0d1e-2f3a4b5c6d7e",
                     "device_model": "XGS1935-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "599a6b7c-e9f0-49ff-1e2f-3a4b5c6d7e8f",
                     "device_model": "XGS1930-52",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6aa07c8d-f0a1-4a00-2f3a-4b5c6d7e8f90",
                     "device_model": "ATP500",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "7bb18d9e-0b12-4b11-3a4b-5c6d7e8f90a1",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8cc29e0f-1c23-4c22-4b5c-6d7e8f90a1b2",
                     "device_model": "XMG1915-18EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9dd30f1a-2d34-4d33-5c6d-7e8f90a1b2c3",
                     "device_model": "NWA130BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "aee41a2b-3e45-4e44-6d7e-8f90a1b2c3d4",
                     "device_model": "XGS1935-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bff52b3c-4f56-4f55-7e8f-90a1b2c3d4e5",
                     "device_model": "NSW100-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c0063c4d-5067-4066-8f90-a1b2c3d4e5f6",
                     "device_model": "SCR 50AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d1174d5e-6178-4177-90a1-b2c3d4e5f6a7",
                     "device_model": "XGS1930-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e2285e6f-7289-4288-a1b2-c3d4e5f6a7b8",
                     "device_model": "SCR 50AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f3396f7a-8390-4399-b2c3-d4e5f6a7b8c9",
                     "device_model": "XGS4600-52F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "044a7a8b-94a1-44aa-c3d4-e5f6a7b8c9d0",
                     "device_model": "NWA110BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         },
@@ -596,357 +709,428 @@
                 {
                     "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
                     "device_model": "ATP200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
                     "device_model": "USG FLEX 100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
                     "device_model": "XGS4600-32F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
                     "device_model": "ATP800",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
                     "device_model": "GS1915-8",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6f7a8b9c-0d1e-4f2a-3b4c-5d6e7f8a9b0c",
                     "device_model": "XGS1930-52HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7a8b9c0d-1e2f-4a3b-4c5d-6e7f8a9b0c1d",
                     "device_model": "USG FLEX 200H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "8b9c0d1e-2f3a-4b4c-5d6e-7f8a9b0c1d2e",
                     "device_model": "XGS2220-54FP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9c0d1e2f-3a4b-4c5d-6e7f-8a9b0c1d2e3f",
                     "device_model": "GS192048HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0d1e2f3a-4b5c-4d6e-7f8a-9b0c1d2e3f4a",
                     "device_model": "GS1915-24EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "ad4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a",
                     "device_model": "NAP303",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "be5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a8b",
                     "device_model": "NSG100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "cf6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b9c",
                     "device_model": "ATP800",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "d07b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
                     "device_model": "GS192048HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e18c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d1e",
                     "device_model": "NSG300",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f29d0e1f-2a3b-4c4d-5e6f-7a8b9c0d1e2f",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "03ae1f2a-3b4c-4d5e-6f7a-8b9c0d1e2f30",
                     "device_model": "NWA50AX PRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "14bf2a3b-4c5d-4e6f-7a8b-9c0d1e2f3041",
                     "device_model": "LTE3301-PLUS",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "25ca3b4c-5d6e-4f7a-8b9c-0d1e2f304152",
                     "device_model": "LTE7461-M602",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "36db4c5d-6e7f-4a8b-9c0d-1e2f30415263",
                     "device_model": "ATP500",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "47ec5d6e-7f8a-4b9c-0d1e-2f3041526374",
                     "device_model": "XS1930-12F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "58fd6e7f-8a9b-4c0d-1e2f-304152637485",
                     "device_model": "XS1935-12HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "69ae7f8a-9b0c-4d1e-2f30-415263748596",
                     "device_model": "NAP303",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7abf8a9b-0c1d-4e2f-3041-526374859607",
                     "device_model": "USG FLEX 500H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "8bca9b0c-1d2e-4f30-4152-637485960718",
                     "device_model": "USG FLEX 50AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9cdb0c1d-2e3f-4a41-5263-748596071829",
                     "device_model": "USG FLEX 100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "ade0c1d2-e3f4-4b52-6374-85960718293a",
                     "device_model": "XMG1915-10E",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bef1d2e3-f4a5-4c63-7485-960718293a4b",
                     "device_model": "SCR 50AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c0f2e3f4-a5b6-4d74-8596-0718293a4b5c",
                     "device_model": "XGS1935-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d103f4a5-b6c7-4e85-9607-18293a4b5c6d",
                     "device_model": "NSG50",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e214a5b6-c7d8-4f96-0718-293a4b5c6d7e",
                     "device_model": "USG FLEX 500H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f325b6c7-d8e9-4a07-1829-3a4b5c6d7e8f",
                     "device_model": "XS1930-12F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0436c7d8-e9f0-4b18-293a-4b5c6d7e8f90",
                     "device_model": "XMG1930-30HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "1547d8e9-f0a1-4c29-3a4b-5c6d7e8f90a1",
                     "device_model": "NSW100-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2658e9f0-a1b2-4d3a-4b5c-6d7e8f90a1b2",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3769f0a1-b2c3-4e4b-5c6d-7e8f90a1b2c3",
                     "device_model": "XGS2220-30F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "487a0b12-c3d4-4f5c-6d7e-8f90a1b2c3d4",
                     "device_model": "GS1915-24EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "598b1c2d-3e4f-4a6d-7e8f-90a1b2c3d4e5",
                     "device_model": "XS1930-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6a9c2d3e-4f50-4b7e-8f90-a1b2c3d4e5f6",
                     "device_model": "NSW100-10P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7bad3e4f-5061-4c8f-90a1-b2c3d4e5f6a7",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "8cbe4f50-6172-4d90-a1b2-c3d4e5f6a7b8",
                     "device_model": "GS1920-48v2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9dcf5061-7283-4ea1-b2c3-d4e5f6a7b8c9",
                     "device_model": "ATP500",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "aed06172-8394-4fb2-c3d4-e5f6a7b8c9da",
                     "device_model": "XGS2220-30F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bfe17283-94a5-40c3-d4e5-f6a7b8c9daeb",
                     "device_model": "USG FLEX 50HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "c0f28394-a5b6-41d4-e5f6-a7b8c9daebfc",
                     "device_model": "XMG1930-30HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d10394a5-b6c7-42e5-f6a7-b8c9daebfc0d",
                     "device_model": "XGS4600-32",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e214a5b6-c7d8-43f6-07b8-c9daebfc0d1e",
                     "device_model": "XMG1930-30HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f325b6c7-d8e9-4407-18c9-daebfc0d1e2f",
                     "device_model": "NWA210AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0436c7d8-e9f0-4518-29da-ebfc0d1e2f30",
                     "device_model": "ATP100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "1547d8e9-f0a1-4629-3aeb-fc0d1e2f3041",
                     "device_model": "NR5101",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2658e9f0-a1b2-473a-4bfc-0d1e2f304152",
                     "device_model": "NR7101",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "3769f0a1-b2c3-484b-5c0d-1e2f30415263",
                     "device_model": "NWA55AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "487a0b12-c3d4-495c-6d1e-2f3041526374",
                     "device_model": "NSW200-28P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "598b1c2d-3e4f-4a6d-7e2f-304152637485",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6a9c2d3e-4f50-4b7e-8f30-415263748596",
                     "device_model": "XGS4600-52F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7bad3e4f-5061-4c8f-9041-526374859607",
                     "device_model": "GS2220-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8cbe4f50-6172-4d90-a152-637485960718",
                     "device_model": "NSG300",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9dcf5061-7283-4ea1-b263-748596071829",
                     "device_model": "XGS1930-52",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "aed06172-8394-4fb2-c374-85960718293a",
                     "device_model": "XGS1935-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "bfe17283-94a5-40c3-d485-960718293a4b",
                     "device_model": "NAP353",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c0f28394-a5b6-41d4-e596-0718293a4b5c",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d10394a5-b6c7-42e5-f607-18293a4b5c6d",
                     "device_model": "USG FLEX 100HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "e214a5b6-c7d8-43f6-0718-293a4b5c6d7e",
                     "device_model": "USG FLEX 50AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f325b6c7-d8e9-4407-1829-3a4b5c6d7e8f",
                     "device_model": "USG FLEX 500H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "0436c7d8-e9f0-4518-293a-4b5c6d7e8f90",
                     "device_model": "USG FLEX 100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "1547d8e9-f0a1-4629-3a4b-5c6d7e8f90a1",
                     "device_model": "GS1920-24v2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2658e9f0-a1b2-473a-4b5c-6d7e8f90a1b2",
                     "device_model": "USG FLEX 100AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3769f0a1-b2c3-484b-5c6d-7e8f90a1b2c3",
                     "device_model": "USG FLEX 50AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "487a0b12-c3d4-495c-6d7e-8f90a1b2c3d4",
                     "device_model": "XGS4600-32",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "598b1c2d-3e4f-4a6d-7e8f-90a1b2c3d4e5",
                     "device_model": "GS1920-8HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         },
@@ -957,357 +1141,428 @@
                 {
                     "id": "1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e",
                     "device_model": "XGS4600-52F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f",
                     "device_model": "USG FLEX 200HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a",
                     "device_model": "GS192024HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a8b",
                     "device_model": "NSG200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5f6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b9c",
                     "device_model": "USG FLEX 50W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6a7b8c9d-0e1f-4a2b-3c4d-5e6f7a8b9c0d",
                     "device_model": "ATP500",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "7b8c9d0e-1f2a-4b3c-4d5e-6f7a8b9c0d1e",
                     "device_model": "ATP700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "8c9d0e1f-2a3b-4c4d-5e6f-7a8b9c0d1e2f",
                     "device_model": "XGS2220-54HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9d0e1f2a-3b4c-4d5e-6f7a-8b9c0d1e2f3a",
                     "device_model": "XS1930-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "0e1f2a3b-4c5d-4e6f-7a8b-9c0d1e2f3a4b",
                     "device_model": "NSW100-10P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "af1a2b3c-4d5e-4f7a-8b9c-0d1e2f3a4b5c",
                     "device_model": "SCR 50AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b02b3c4d-5e6f-4a8b-9c0d-1e2f3a4b5c6d",
                     "device_model": "USG FLEX 50H",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "c13c4d5e-6f7a-4b9c-0d1e-2f3a4b5c6d7e",
                     "device_model": "XS1930-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d24d5e6f-7a8b-4c0d-1e2f-3a4b5c6d7e8f",
                     "device_model": "GS2220-50",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e35e6f7a-8b9c-4d1e-2f3a-4b5c6d7e8f90",
                     "device_model": "ATP100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f46f7a8b-9c0d-4e2f-3a4b-5c6d7e8f90a1",
                     "device_model": "NWA1123-ACv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "057a8b9c-0d1e-4f30-4b5c-6d7e8f90a1b2",
                     "device_model": "GS1920-8HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "168b9c0d-1e2f-4a41-5c6d-7e8f90a1b2c3",
                     "device_model": "XGS1930-52",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "279c0d1e-2f3a-4b52-6d7e-8f90a1b2c3d4",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "38ad1e2f-3a4b-4c63-7e8f-90a1b2c3d4e5",
                     "device_model": "USG FLEX 700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "49be2f3a-4b5c-4d74-8f90-a1b2c3d4e5f6",
                     "device_model": "NWA50AX PRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5acf3a4b-5c6d-4e85-90a1-b2c3d4e5f6a7",
                     "device_model": "XGS1930-52HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6bd04b5c-6d7e-4f96-a1b2-c3d4e5f6a7b8",
                     "device_model": "GS1920-24HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7ce15c6d-7e8f-4a07-b2c3-d4e5f6a7b8c9",
                     "device_model": "NSW100-10P",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8df26d7e-8f90-4b18-c3d4-e5f6a7b8c9da",
                     "device_model": "NSW100-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9e037e8f-90a1-4c29-d4e5-f6a7b8c9daeb",
                     "device_model": "USG LITE 60AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "af148f90-a1b2-4d3a-e5f6-a7b8c9daebfc",
                     "device_model": "NWA110BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b02590a1-b2c3-4e4b-f6a7-b8c9daebfc0d",
                     "device_model": "USG LITE 60AX",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c136a1b2-c3d4-4f5c-07b8-c9daebfc0d1e",
                     "device_model": "LTE3301-PLUS",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d247b2c3-d4e5-406d-18c9-daebfc0d1e2f",
                     "device_model": "NWA110BE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e358c3d4-e5f6-417e-29da-ebfc0d1e2f30",
                     "device_model": "ATP800",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f469d4e5-f6a7-428f-3aeb-fc0d1e2f3041",
                     "device_model": "GS1915-24EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "057ae5f6-a7b8-4390-4bfc-0d1e2f304152",
                     "device_model": "USG FLEX 200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "168bf6a7-b8c9-44a1-5c0d-1e2f30415263",
                     "device_model": "NWA1123-ACv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "279ca7b8-c9d0-45b2-6d1e-2f3041526374",
                     "device_model": "USG FLEX 100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "38adb8c9-d0e1-46c3-7e2f-304152637485",
                     "device_model": "ATP100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "49bec9d0-e1f2-47d4-8f30-415263748596",
                     "device_model": "NSG100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5acfd0e1-f2a3-48e5-9041-526374859607",
                     "device_model": "USG FLEX 50W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6bd0e1f2-a3b4-49f6-a152-637485960718",
                     "device_model": "XGS1935-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "7ce1f2a3-b4c5-4a07-b263-748596071829",
                     "device_model": "XS1935-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8df2a3b4-c5d6-4b18-c374-85960718293a",
                     "device_model": "GS1350-6HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "9e03b4c5-d6e7-4c29-d485-960718293a4b",
                     "device_model": "XGS1935-52",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "af14c5d6-e7f8-4d3a-e596-0718293a4b5c",
                     "device_model": "NWA55AXE",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b025d6e7-f8a9-4e4b-f607-18293a4b5c6d",
                     "device_model": "XS1930-12HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "c136e7f8-a9b0-4f5c-0718-293a4b5c6d7e",
                     "device_model": "NR5101",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "d247f8a9-b0c1-406d-1829-3a4b5c6d7e8f",
                     "device_model": "GS1920-48HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e358a9b0-c1d2-417e-293a-4b5c6d7e8f90",
                     "device_model": "USG FLEX 200HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "f469b0c1-d2e3-428f-3a4b-5c6d7e8f90a1",
                     "device_model": "GS192024HPv2",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "057ac1d2-e3f4-4390-4b5c-6d7e8f90a1b2",
                     "device_model": "USG FLEX 100",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "168bd2e3-f4a5-44a1-5c6d-7e8f90a1b2c3",
                     "device_model": "USG FLEX 200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "279ce3f4-a5b6-45b2-6d7e-8f90a1b2c3d4",
                     "device_model": "NWA1123-AC HD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "38adf4a5-b6c7-46c3-7e8f-90a1b2c3d4e5",
                     "device_model": "XGS1935-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "49bea5b6-c7d8-47d4-8f90-a1b2c3d4e5f6",
                     "device_model": "GS2220-28HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "5acfb6c7-d8e9-48e5-90a1-b2c3d4e5f6a7",
                     "device_model": "GS1915-24E",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6bd0c7d8-e9f0-49f6-a1b2-c3d4e5f6a7b8",
                     "device_model": "USG FLEX 700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "7ce1d8e9-f0a1-4a07-b2c3-d4e5f6a7b8c9",
                     "device_model": "GS1915-8EP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "8df2e9f0-a1b2-4b18-c3d4-e5f6a7b8c9da",
                     "device_model": "ATP700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "9e03f0a1-b2c3-4c29-d4e5-f6a7b8c9daeb",
                     "device_model": "USG FLEX 100HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "af140b12-c3d4-4d3a-e5f6-a7b8c9daebfc",
                     "device_model": "NSW100-10",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "b0251c2d-3e4f-4e4b-f6a7-b8c9daebfc0d",
                     "device_model": "ATP700",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "c1362d3e-4f50-4f5c-07b8-c9daebfc0d1e",
                     "device_model": "USG FLEX 100W",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "d2473e4f-5061-406d-18c9-daebfc0d1e2f",
                     "device_model": "NWA1123ACv3",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "e3584f50-6172-417e-29da-ebfc0d1e2f30",
                     "device_model": "XS3800-28",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "f4695061-7283-428f-3aeb-fc0d1e2f3041",
                     "device_model": "NWA1302-AC",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "057a6172-8394-4390-4bfc-0d1e2f304152",
                     "device_model": "GS1350-26HP",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "168b7283-94a5-44a1-5c0d-1e2f30415263",
                     "device_model": "NWA1123-ACHD",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "279c8394-a5b6-45b2-6d1e-2f3041526374",
                     "device_model": "NWA1123-AC PRO",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "38ad94a5-b6c7-46c3-7e2f-304152637485",
                     "device_model": "USG FLEX 200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "49bea5b6-c7d8-47d4-8f30-415263748596",
                     "device_model": "USG FLEX 200",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": true
                 },
                 {
                     "id": "5acfb6c7-d8e9-48e5-9041-526374859607",
                     "device_model": "XGS2220-30F",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 },
                 {
                     "id": "6bd0c7d8-e9f0-49f6-a152-637485960718",
                     "device_model": "NAP203",
-                    "name": "Sample Device"
+                    "name": "Sample Device",
+                    "is_support_gsp": false
                 }
             ]
         }
