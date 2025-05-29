@@ -34,11 +34,23 @@ def generate_sample_csv():
         # Iterate through organizations and devices
         for org in sample_data['org_info']:
             org_id = org['id']
+            payg_mode = org['payg_mode']
             for device in org['devices']:  # Iterate through device objects
                 device_id = device['id']   # Access the 'id' field
+                is_support_gsp = device['is_support_gsp']
                 used_dates = set()
                 # Generate 18 rows of sample data for each device
-                gsp = random.choice([True, False])
+                if not is_support_gsp:
+                    gsp = False
+                else:
+                    if payg_mode == "pro":
+                        gsp = False
+                    elif payg_mode == "gsp":
+                        gsp = True
+                    else:
+                        # Default case if payg_mode is neither "pro" nor "gsp"
+                        # Or handle as an error, depending on expected data integrity
+                        gsp = False 
                 for i in range(18):
                     # Generate random date in the format YYYY-MM-DD
                     while True:
