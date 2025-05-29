@@ -39,7 +39,6 @@ def generate_sample_csv():
                 device_id = device['id']   # Access the 'id' field
                 used_dates = set()
                 # Generate 13 rows of sample data for each device
-                gsp = random.choice([True, False])
                 for i in range(13):
                     # Generate random date in the format YYYY-MM-DD
                     while True:
