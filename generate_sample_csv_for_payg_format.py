@@ -15,6 +15,11 @@ from datetime import timedelta
 end_date = datetime.date(2025, 4, 1)
 start_date = datetime.date(2025, 3, 14)
 
+# List of supported GSP models
+support_gsp_models = ["ATP100", "ATP100W", "ATP200", "ATP500", "ATP700", "ATP800", "USG FLEX 100", "USG FLEX 100AX", "USG FLEX 100H", "USG FLEX 100HP",
+                      "USG FLEX 100W", "USG FLEX 200", "USG FLEX 200H", "USG FLEX 200HP", "USG FLEX 500", "USG FLEX 500H", "USG FLEX 50H", "USG FLEX 50HP", "USG FLEX 700", "USG FLEX 700H"]
+
+
 def random_date(start, end):
     """Generate a random date between start and end dates"""
     time_between_dates = end - start
@@ -22,6 +27,7 @@ def random_date(start, end):
     random_number_of_days = random.randrange(days_between_dates)
     random_date = start + timedelta(days=random_number_of_days)
     return random_date.strftime('%Y-%m-%d')
+
 
 def generate_sample_csv():
     with open('sample_payg.json', 'r') as f:
@@ -50,7 +56,7 @@ def generate_sample_csv():
                     else:
                         # Default case if payg_mode is neither "pro" nor "gsp"
                         # Or handle as an error, depending on expected data integrity
-                        gsp = False 
+                        gsp = False
                 for i in range(18):
                     # Generate random date in the format YYYY-MM-DD
                     while True:
@@ -58,7 +64,8 @@ def generate_sample_csv():
                         if random_time not in used_dates:
                             used_dates.add(random_time)
                             break
-                    writer.writerow([str(uuid.uuid4()), device_id, org_id, random_time, True, gsp ])
+                    writer.writerow(
+                        [str(uuid.uuid4()), device_id, org_id, random_time, True, gsp])
 
 
 if __name__ == "__main__":
