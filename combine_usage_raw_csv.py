@@ -23,15 +23,7 @@ def transfer_data_format_from_postpay_to_payg(df: pd.DataFrame) -> pd.DataFrame:
     df.reindex(columns=['uuid', 'device_id', 'org_id', 'time', 'pro', 'gsp'])
     return df
 
-# append data from table1 and table2
-
-
-def append_data_from_table1_and_table2(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
-    df = df1.append(df2)
-    return df
-
-
-def combine_data_from_table1_and_table2(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
+def append_postpay_usage_to_payg_usage(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
     df = pd.concat([df1, df2], ignore_index=True)
     return df
 
@@ -41,9 +33,9 @@ def write_data_to_csv(df: pd.DataFrame, file_path: str) -> None:
 
 
 if __name__ == "__main__":
-    df1 = read_data_from_csv("sample_postpay.csv")
-    df2 = read_data_from_csv("sample_payg.csv")
-    df3 = transfer_data_format_from_postpay_to_payg(df1)
-    df = combine_data_from_table1_and_table2(df2, df3)
-    write_data_to_csv(df, "sample_usage_raw.csv")
+    df_postpay = read_data_from_csv("sample_postpay.csv")
+    df_payg = read_data_from_csv("sample_payg.csv")
+    df_postpay_to_payg = transfer_data_format_from_postpay_to_payg(df_postpay)
+    df_raw_usage = append_postpay_usage_to_payg_usage(df_payg, df_postpay_to_payg)
+    write_data_to_csv(df_raw_usage, "sample_usage_raw.csv")
     print("Combined usage raw data written to sample_usage_raw.csv")
