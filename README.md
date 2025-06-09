@@ -129,14 +129,14 @@ write_dataframe_to_csv(df, "usage_data.csv")
 
 ```python
 # Example usage
-from combine_usage_raw_csv import read_data_from_csv, combine_data_from_table1_and_table2
+from combine_usage_raw_csv import read_data_from_csv, append_postpay_usage_to_payg_usage
 
 # Read data from CSV files
 postpay_data = read_data_from_csv("sample_postpay.csv")
 payg_data = read_data_from_csv("sample_payg.csv")
 
 # Combine data
-combined_data = combine_data_from_table1_and_table2(postpay_data, payg_data)
+combined_data = append_postpay_usage_to_payg_usage(postpay_data, payg_data)
 ```
 
 ## Requirements
